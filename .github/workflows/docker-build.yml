@@ -17,4 +17,5 @@ jobs:
         run: docker build -t anujprakashdixit/fastapi-docker:latest .
 
       - name: Push Docker Image
-        run: docker push <anujprakashdixit>/fastapi-docker:latest
+        run: docker push anujprakashdixit/fastapi-docker:latest
+
